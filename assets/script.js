@@ -25,8 +25,8 @@ let compteur = 0;
 
 function Carousel() {
     
-    const imagePath = `assets/images/slideshow/${slides[compteur].image}`;
-    bannerImg.src = imagePath;
+    const image = `assets/images/slideshow/${slides[compteur].image}`;
+    bannerImg.src = image;
     
 
     const tagLine = slides[compteur].tagLine;
